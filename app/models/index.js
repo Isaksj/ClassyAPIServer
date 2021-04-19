@@ -12,5 +12,6 @@ db.sequelize = sequelize;
 
 db.tutorials = require("./tutorial.model.js")(sequelize, Sequelize);
 db.rooms = require("./room.model.js")(sequelize, Sequelize);
+db.feedbacks = require("./feedback.model.js")(sequelize, Sequelize);
 
 module.exports = db;
